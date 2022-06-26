@@ -1664,8 +1664,8 @@ case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case '
 if (isBanChat) return reply(mess.banChat)
 teks = `*「 ${global.botname} Script 」*\n\nTiktok: ${global.websitex}\nGitHub: ${global.botscript}\n\n*DON'T FORGET TO DONATE THROUGH FUNDS OR PULSE*
 
-*FUND : 083813063969*
-*PULSE : 083813063969*🍜`
+*FUND : 081332995497*
+*PULSE : 08381944435802*🍜`
 let buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'Menu 🌺'}, type: 1}
 ]
@@ -1681,8 +1681,8 @@ title:"I deserve something for my hardwork",
 body: "Click to donate", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
-mediaUrl: 'https://telegra.ph/file/8737b098fd5702daeb7e0.jpg',
-sourceUrl: "https://telegra.ph/file/8737b098fd5702daeb7e0.jpg"
+mediaUrl: 'https://www.simpleimageresizer.com/_uploads/photos/79fab724/donasi_1.png',
+sourceUrl: "https://www.simpleimageresizer.com/_uploads/photos/79fab724/donasi_1.png"
 }}
 }
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -9280,7 +9280,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     title: `Hi ${pushname}`,
                     description: `Please Choose The Menu
 *DONATE ME DANA OR PULSA*
-*[083813063969]*\n\n`,
+*[081332995497]*\n\n`,
                     buttonText: "Menu",
                     footerText: `${global.botname}`,
                     listType: "SINGLE_SELECT",
